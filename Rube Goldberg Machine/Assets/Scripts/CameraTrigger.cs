@@ -7,7 +7,7 @@ public class CameraTrigger : MonoBehaviour {
 	public int camNum;
 
 	void OnTriggerEnter(Collider other){
-	//	controller.DeactivateCameras();
-	//	controller.activateCamera(camNum);
+		controller.DeactivateCameras();
+		controller.activateCamera(camNum);
 	}
 }
